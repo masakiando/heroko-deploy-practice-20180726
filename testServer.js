@@ -2,7 +2,7 @@ var express =  require('express');
 var colors =  require('colors');
 var Test =  require('./testModel');
 var queries = require('./queries');
-let router = express.Router();
+var router = express.Router();
 
 console.log('starting testServer...'.white);
 
